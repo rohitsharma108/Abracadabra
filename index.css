@@ -1,0 +1,79 @@
+#container{
+    /* border: 2px solid red; */
+    background-image: url("./ab1.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    background-position: center center;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 40vh;
+    width: 98vw;
+    margin: auto;
+    position: fixed;
+    bottom: 40px;
+    font-weight: bold;
+    font-size: 2.7rem;
+    text-align: center center;
+    
+   
+    
+    
+}
+.result{
+    /* border: 2px solid red; */
+    background-image: url("./ab2.jfif");
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    height: 40vh;
+    width: 98vw;
+    position: fixed;
+    top: 5rem;
+   
+    display: flex;
+
+    /* margin: auto auto; */
+    justify-content: center ;
+    /* align-items: center; */
+    /* padding-bottom: 120px; */
+}
+div img{
+    height: 15%;
+    position: relative;
+    top: 8rem;
+    z-index: 2;
+
+
+    /* border: 2px solid green; */
+}
+.result img{
+    height: 20%;
+    /* align-items: center center; */
+
+    position: relative;
+    top: 50px;
+   
+}
+.navi{
+    /* margin: 2px 10px 10px; */
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    padding: 10px;
+}
+.navi button{
+    color: white;
+    background-color: gray;
+    border-radius: 20px;
+    /* margin: 5px 10px; */
+    /* height: 20px; */
+    align-self: center;
+    cursor: pointer;
+    text-align: center;
+    width: 100px; 
+    padding: 5px;
+    /* font-size: 30px; */
+
+}
+
